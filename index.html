@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Construction + Data Analytics | Portfolio & Business Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <h1 id="hero-name">Your Name</h1>
+        <p id="hero-title">Construction Operations, Analytics, and Business Growth Partner</p>
+      </div>
+      <div class="toolbar">
+        <label>
+          <span data-i18n="theme">Theme</span>
+          <select id="theme-switcher" aria-label="Theme switcher">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </label>
+        <label>
+          <span data-i18n="language">Language</span>
+          <select id="lang-switcher" aria-label="Language switcher">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h2 data-i18n="heroHeadline">One Partner for Construction Execution + Data-Driven Business Decisions</h2>
+      <p data-i18n="heroSub">
+        I help developers, contractors, business owners, property managers, small businesses, and homeowners deliver projects faster,
+        reduce risk, and unlock profitable growth through practical construction expertise and analytics.
+      </p>
+      <div class="actions">
+        <a class="btn" href="#contact" data-i18n="ctaConsult">Book a Consultation</a>
+        <a class="btn btn-alt" href="#services" data-i18n="ctaServices">Explore Services</a>
+      </div>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="about" role="tab" data-i18n="about">About</button>
+      <button class="tab" data-tab="services" role="tab" data-i18n="services">Services</button>
+      <button class="tab" data-tab="portfolio" role="tab" data-i18n="portfolio">Portfolio</button>
+      <button class="tab" data-tab="testimonials" role="tab" data-i18n="testimonials">Testimonials</button>
+      <button class="tab" data-tab="contact" role="tab" data-i18n="contact">Contact</button>
+    </nav>
+
+    <main>
+      <section class="panel active" id="about">
+        <h2 data-i18n="introTitle">Professional Profile</h2>
+        <p data-i18n="introBody">
+          I bridge construction delivery and analytics strategy: turning field-level complexity into measurable business outcomes.
+          This platform is built to connect with hiring teams and new business partners who need execution, clarity, and results.
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3 data-i18n="constructionSkills">Construction Skills</h3>
+            <ul>
+              <li>Project planning, scheduling, and execution</li>
+              <li>Budget controls, cost tracking, and forecasting</li>
+              <li>Quality, safety, and compliance alignment</li>
+              <li>Vendor and subcontractor management</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="dataSkills">Data Analytics Skills</h3>
+            <ul>
+              <li>Dashboarding (Power BI / Tableau)</li>
+              <li>KPI design and operational reporting</li>
+              <li>SQL, Python, and process automation</li>
+              <li>Trend analysis and executive insights</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="services">
+        <h2 data-i18n="servicesTitle">Services for Teams and Owners</h2>
+        <div class="cards">
+          <article class="card">
+            <h3 data-i18n="svcDev">Developers & Property Managers</h3>
+            <p data-i18n="svcDevDesc">Portfolio-level visibility, vendor accountability, capex control, and schedule confidence.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="svcContractor">Contractors & Trades</h3>
+            <p data-i18n="svcContractorDesc">Field-to-office reporting, productivity analytics, bid support, and project controls.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="svcBusiness">Business Owners & SMBs</h3>
+            <p data-i18n="svcBusinessDesc">Renovation/expansion planning, ROI-based decisions, and operational dashboards.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="svcHome">Homeowners</h3>
+            <p data-i18n="svcHomeDesc">Project planning guidance, contractor evaluation support, and cost-risk transparency.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="portfolio">
+        <h2 data-i18n="portfolioTitle">Portfolio Highlights</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Capital Build Program Optimization</h3>
+            <p>Reduced schedule variance by 18% by combining critical path review with weekly analytics-driven risk scoring.</p>
+          </article>
+          <article class="card">
+            <h3>Vendor Performance Dashboard</h3>
+            <p>Developed a centralized vendor scorecard that improved on-time delivery and reduced claims escalations.</p>
+          </article>
+          <article class="card">
+            <h3>Safety & Productivity Intelligence</h3>
+            <p>Integrated incident trends with production data to proactively target high-risk work packages and boost output.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="testimonials">
+        <h2 data-i18n="testimonialsTitle">Testimonials</h2>
+        <blockquote>
+          “A unique professional who understands jobsite realities and translates them into clear business intelligence.”
+          <cite>— Senior Project Executive</cite>
+        </blockquote>
+        <blockquote>
+          “Reliable, collaborative, and deeply analytical—an asset in both planning rooms and field reviews.”
+          <cite>— Operations Director</cite>
+        </blockquote>
+      </section>
+
+      <section class="panel" id="contact">
+        <h2 data-i18n="contactTitle">Connect, Chat, and Schedule</h2>
+        <div class="cards">
+          <article class="card">
+            <h3 data-i18n="aiBotTitle">AI Conversation Bot</h3>
+            <p data-i18n="aiBotText">Share your goals or role requirements below. The assistant can draft a direct outreach email.</p>
+            <form id="chat-form">
+              <textarea id="chat-input" rows="4" placeholder="Tell me what role, project, or collaboration you have in mind..."></textarea>
+              <button type="submit" data-i18n="generateMessage">Generate Outreach</button>
+            </form>
+            <pre id="chat-output" aria-live="polite"></pre>
+          </article>
+
+          <article class="card">
+            <h3 data-i18n="scheduleTitle">Schedule a Meeting</h3>
+            <p data-i18n="scheduleText">Choose an online session or an in-person meeting.</p>
+            <div class="actions">
+              <a class="btn" href="https://calendly.com" target="_blank" rel="noreferrer" data-i18n="bookOnline">Book Online Meeting</a>
+              <a class="btn" href="mailto:you@example.com?subject=In-Person%20Meeting%20Request" data-i18n="bookOffline">Request In-Person Meeting</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 data-i18n="socialTitle">Professional Links</h3>
+            <p><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
+            <p><a href="mailto:you@example.com">you@example.com</a></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
